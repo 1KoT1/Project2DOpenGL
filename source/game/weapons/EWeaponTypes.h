@@ -13,4 +13,4 @@ enum class EWeaponTypes
 };
 
 //first element of pair is a damage and second is a time between shooting
-extern std::map<EWeaponTypes, std::pair<uint8_t, float>> weapon_type_and_damage;
+extern std::map<EWeaponTypes, std::pair<unsigned char, float>> weapon_type_and_damage;
